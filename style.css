@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background: #2e2e3f;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  width: 350px;
+}
+
+.display {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 2rem;
+  text-align: right;
+  overflow-x: auto;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #444;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #666;
+}
+
+.equal {
+  background: #00c853;
+  color: #fff;
+}
+
+.equal:hover {
+  background: #00e676;
+}
+
+.history {
+  margin-top: 15px;
+  background: #1c1c2b;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 100px;
+  overflow-y: auto;
+  font-size: 0.9rem;
+}
+
+
+/* Produce by AmirHossein Taghizadeh */
